@@ -1,16 +1,49 @@
-<<<<<<< HEAD
-# React + Vite
+# 🛍️ Product Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive product dashboard built with **React**, **Redux Toolkit**, **Tailwind CSS v4**, and **Vite**. It fetches data from the [Fake Store API](https://fakestoreapi.com) and provides features like search, filtering, sorting, product details, and favorites.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ [View the Live App on Vercel](https://product-dashboard-nine-xi.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# product-dashboard
->>>>>>> 497711d0abd6e31b8a38bbd23d89b83d1127a455
+## Tech Stack
+
+- React (Functional Components + Hooks)
+- Redux Toolkit (State Management)
+- Vite (Development & Build Tool)
+- Tailwind CSS v4.x (Styling)
+- Vitest + Testing Library (Unit & Integration Testing)
+- Fake Store API (https://fakestoreapi.com)
+- Vercel (Hosting)
+
+---
+
+## Features
+
+- Product Listing Page (Responsive Grid)
+- Debounced Search by Title
+- Filter by Category
+- Sort by Price
+- Product Detail Page
+- Favorites Management via Redux
+- State Management with Redux Thunks & Selectors
+- Unit & Integration Testing
+
+---
+
+## Setup Instructions
+
+### 1. **Clone the Repository**
+```bash
+git clone https://github.com/umathomprakash09/product-dashboard.git
+cd product-dashboard
+
+## Run the project
+
+npm run dev
+
+## Run the test cases
+
+npm run test
