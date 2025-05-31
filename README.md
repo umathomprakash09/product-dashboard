@@ -1,4 +1,4 @@
-# 🛍️ Product Dashboard
+#  Product Dashboard
 
 A modern, responsive product dashboard built with **React**, **Redux Toolkit**, **Tailwind CSS v4**, and **Vite**. It fetches data from the [Fake Store API](https://fakestoreapi.com) and provides features like search, filtering, sorting, product details, and favorites.
 
@@ -44,6 +44,6 @@ cd product-dashboard
 
 npm run dev
 
-## Run the test cases
+## Run the test cases 
 
 npm run test
